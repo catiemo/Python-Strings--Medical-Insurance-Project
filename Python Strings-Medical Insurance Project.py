@@ -69,6 +69,7 @@ average_bmi = total_bmi / len(bmis)
 
 print("Average BMI: {average_bmi}".format(average_bmi = average_bmi))
 
+# Extra Practice
 total_insurance_costs = 0
 for i in range(len(insurance_costs)):
   converted_insurance_costs = float(insurance_costs[i].replace("$", " "))
